@@ -1,0 +1,105 @@
+:root{
+
+    --main-color : #f92020  ; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+.container{
+    padding: 0 150px;
+    height: 100vh;
+    background-image: url(imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    background-color: #cccccc;
+    background-position: center;
+
+}
+header{
+    padding-top: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header nav svg{
+transition: .3s;
+position: absolute;
+left: 10%;
+top: 6%;
+}
+nav .center img{
+    width: 180px;
+    height: 32px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly ;
+    list-style: none;
+    width: 35%;
+    transition: .5s;
+
+}
+nav ul li a { 
+    text-decoration: none;
+    color: white;
+font-weight: bold;
+font-size: 15px;
+transition: .3s;
+
+}
+nav ul li a:hover{
+
+    color: var(--main-color);
+}
+.se1c{
+    text-align: center;
+    margin-top: 40vh;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.se1c h1{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.se1c .p1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.se1c button{
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: .3s;
+width: 200px;
+height: 60px;
+
+}
+.se1c button:hover{
+    background-color:#e62a2a;
+}
+.se1c .p2{
+    width: 50%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.805);
+    line-height: 1.5;
+
+}

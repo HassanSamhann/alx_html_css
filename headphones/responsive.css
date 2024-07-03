@@ -1,0 +1,70 @@
+
+@media screen and (min-width: 767px) {
+    header nav svg {
+      display: none; 
+      
+    }
+}
+@media screen and (max-width: 767px) {
+    nav {
+        display: block;
+    }
+    nav .center      {
+    text-align: center;
+    }
+    
+    nav ul {
+      display: none;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .container{
+        padding: 0 15px ;
+    }
+    nav ul li  {
+        margin-bottom: 25px;
+    }
+    header nav svg:hover + ul  {
+       
+            display: block;
+
+    }
+    .se1c{
+        margin-top: 25vh;
+
+    }
+    .se1c .p1{
+        margin-bottom: 10px;
+    }
+    .se1c button{
+        margin-bottom: 20px;
+    }
+    .se1c .p2{
+        width: 100%;
+        font-size: 12px;
+    }
+
+}
+@media (min-width:767px) and (max-width:1300px) {
+    .container{
+        padding: 0 100px ;
+
+    }
+    nav ul li a{
+        font-size: 12px;
+
+    }
+    
+    .se1c{
+        margin-top: 25vh;
+
+    }
+    .se1c h1{
+        font-size: 22px;
+    }
+    .se1c p2{
+        font-size: 14px;
+    }
+}
+  
