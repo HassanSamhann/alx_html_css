@@ -1,0 +1,280 @@
+:root{
+
+    --main-color : #f92020  ; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+.container{
+    padding: 0 150px;
+    height: 100vh;
+    background-image: url(imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    background-color: #cccccc;
+    background-position: center;
+
+}
+.container-1{
+    padding: 0 150px;
+    margin-bottom: 100px;
+}
+header{
+    padding-top: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header nav svg{
+transition: .3s;
+position: absolute;
+left: 10%;
+top: 6%;
+}
+nav .center img{
+    width: 180px;
+    height: 32px;
+    cursor: pointer;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly ;
+    list-style: none;
+    width: 35%;
+    transition: .5s;
+
+}
+nav ul li a { 
+    text-decoration: none;
+    color: white;
+font-weight: bold;
+font-size: 15px;
+transition: .3s;
+
+}
+nav ul li a:hover{
+
+    color: var(--main-color);
+}
+.se1c{
+    text-align: center;
+    margin-top: 40vh;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.se1c h1{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.se1c .p1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.se1c button{
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: .3s;
+width: 200px;
+height: 60px;
+
+}
+.se1c button:hover{
+    background-color:#e74141;
+}
+.se1c .p2{
+    width: 50%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.805);
+    line-height: 1.5;
+
+}
+.se2c{
+    margin-top: 100px;
+  }
+  .se2c .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+  .se2c .text h2{
+    font-size: 32px;
+  }
+  .se2c .text p{
+    text-align: center;
+    width: 50%;
+    line-height: 1.5;
+  }
+
+  .se2c .flex {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+  .se2c .flex .card {
+    text-align: center;
+  }
+  .se2c .flex .card h4{
+    margin-top: 12px;
+  }
+  .se2c .flex .card P{
+    margin-top: 10px;
+    line-height: 2;
+  }
+
+  .container-2{
+    background-image: url(imgs/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 150px;
+   
+
+
+  }
+
+  .se3c{
+    color: white;
+    padding-top: 150px;
+  }
+  .se3c .text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .se3c .text h2{
+    font-size: 32px;
+  }
+  .se3c .text p{
+    text-align: center;
+    width: 70%;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .se3c .flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+  }
+  .se3c .flex .card{
+    width: 200px;
+    height: 200px;
+    background-color: var(--main-color);
+    clip-path: polygon(
+        50% 0%,       /* Top point */
+        100% 38%,     /* Top-right point */
+        82% 100%,     /* Bottom-right point */
+        18% 100%,     /* Bottom-left point */
+        0% 38%        /* Top-left point */);
+        margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .se3c .flex .card h4{
+    font-size: 46px;
+  }
+  .se3c .flex .card p{
+    margin-top: 10px;
+    color:#cccccc;
+  }
+  .se4c{
+    margin-top: 100px;
+  }
+  .se4c h4{
+    font-size: 32px ; 
+    text-align: center;
+  }
+  .se4c .inp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+
+  }
+  .se4c .inp input {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid #00000052;
+    padding: 10px;
+    
+  }
+  .se4c .inp input::placeholder{
+    color: black;
+    font-weight: 700;
+  }
+  .se4c .inp button{
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: .3s;
+width: 200px;
+height: 60px;
+
+  }
+  .se4c button:hover{
+    background-color:#e74141;
+}
+footer{
+  height: 250px;
+  background-color:#071629 ;
+  display: flex;
+  justify-content: space-between;
+padding: 0 150px;
+align-items: center;
+}
+footer img {
+  width: 180px;
+  height: 32px;
+  cursor: pointer;
+ 
+
+}
+footer .soc{
+  display: flex;
+
+}
+footer .soc i{
+  color: white;
+  font-size: 35px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
