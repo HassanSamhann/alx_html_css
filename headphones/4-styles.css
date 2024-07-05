@@ -66,6 +66,7 @@ nav ul li a:hover{
 
     color: var(--main-color);
 }
+
 .se1c{
     text-align: center;
     margin-top: 40vh;
@@ -148,7 +149,8 @@ height: 60px;
     line-height: 2;
   }
 
-  .container-2{
+
+.container-2{
     background-image: url(imgs/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,28 +255,29 @@ height: 60px;
     opacity: 0.9;
 }
 footer{
-  height: 250px;
-  background-color:#071629 ;
-  display: flex;
-  justify-content: space-between;
-padding: 0 150px;
-align-items: center;
-}
-footer img {
-  width: 180px;
-  height: 32px;
-  cursor: pointer;
- 
-
-}
-footer .soc{
-  display: flex;
-
-}
-footer .soc i{
-  color: white;
-  font-size: 35px;
-  margin-left: 15px;
-  cursor: pointer;
-}
-
+    height: 250px;
+    background-color:#071629 ;
+    display: flex;
+    justify-content: space-between;
+  padding: 0 150px;
+  align-items: center;
+  }
+  footer img {
+    width: 180px;
+    height: 32px;
+    cursor: pointer;
+   
+  
+  }
+  footer .soc{
+    display: flex;
+  
+  }
+  footer .soc i{
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  
